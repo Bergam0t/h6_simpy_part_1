@@ -16,7 +16,7 @@
       ]
     }
   },
-  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f h6_simpy_part_1/environment/requirements.txt ] && pip3 install --user -r h6_simpy_part_1/environment/requirements.txt; echo '✅ Packages installed and Requirements met'",
+  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f 2b_simpy_part_1/environment/requirements.txt ] && pip3 install --user -r 2b_simpy_part_1/environment/requirements.txt; echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {  },
   "portsAttributes": {
     "8501": {
